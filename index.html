@@ -1,0 +1,93 @@
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Pianobase</title>
+            <link rel="stylesheet" href="css/uikit.min.css" />
+            <script src="js/uikit.min.js"></script>
+            <script src="js/uikit-icons.min.js"></script>
+            <style>
+            img {max-width:100%}
+/**
+ * Demo Styles
+ */
+
+ html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #FCFCFC;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #FCFCFC;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  left: 0;
+  padding: 1rem;
+  
+  text-align: center;
+}
+            </style>
+    </head>
+    <body class="demo">
+        <center>
+        <br>
+     <h1 id="hi" >Quiz</h1>
+     </center>
+     
+     <div class="uk-container">
+         
+     <img class="uk-align-center" id="note">
+     
+     </div>
+     
+         <br>
+         <br>
+         <br>
+         <center>
+         <form>
+                <div class="uk-margin footer">
+                        
+                            
+                            
+                            <input class="uk-input uk-form-width-medium" placeholder="Note" id="answer" >
+                            
+                        
+                        <button onclick="check()" class="uk-button uk-button-primary"  >Submit</button>
+                    </div>
+        </form></center>
+    
+    
+        <script src="index.js"></script>
+       
+    </body>
+    </html>

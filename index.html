@@ -61,7 +61,9 @@ body {
     <body class="demo">
         <center>
         <br>
+       
      <h1 id="hi" >Quiz</h1>
+     </center>
      </center>
      
      <div class="uk-container">
@@ -69,22 +71,27 @@ body {
      <img class="uk-align-center" id="note">
      
      </div>
+
      
          <br>
+         <center>
+         <h4 id="result"></h4>
+         </center>
          <br>
          <br>
          <center>
-         <form>
+        
                 <div class="uk-margin footer">
                         
                             
                             
-                            <input class="uk-input uk-form-width-medium" placeholder="Note" id="answer" >
+                            <input class="uk-input uk-form-width-medium"  onkeydown = "if (event.keyCode == 13)
+                            document.getElementById('checkb').click()" placeholder="Note" id="answer" autofocus>
                             
                         
-                        <button onclick="check()" class="uk-button uk-button-primary"  >Submit</button>
+                        <button id="checkb" onclick="check()" class="uk-button uk-button-primary" >Submit</button>
                     </div>
-        </form></center>
+        </center>
     
     
         <script src="index.js"></script>

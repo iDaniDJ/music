@@ -94,13 +94,20 @@ if (bassortreble === 0){
 } else {
     document.getElementById("note").src = rand.bass;
 }
-
+$("#answer").keyup(function(event) {
+    if (event.keyCode === 13) {
+        $("#checkb").click();
+    }
+});
 function check() {
     if (document.getElementById("answer").value == rand.val || document.getElementById("answer").value == rand.val2 ) {
-        alert("Correct")
-        window.location.reload(true);
+        document.getElementById("result").innerHTML = "Correct";
+        setTimeout(
+            function() 
+            {
+window.location.reload(true);          }, 500);
     } else {
-        alert("Incorrect")
+        document.getElementById("result").innerHTML = "Incorrect";
     }
     
 }

@@ -93,7 +93,7 @@ let bassortreble = Math.floor(Math.random() * 2);
 if (bassortreble === 0){
     document.getElementById("note").src = rand.treble;
 } else {
-    document.getElementById("note").src = rand.bass;
+    document.getElementById("note").src = rand.treble;
 }
 $("#answer").keyup(function(event) {
     if (event.keyCode === 13) {

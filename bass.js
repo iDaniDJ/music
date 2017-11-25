@@ -91,7 +91,7 @@ let treble = rand.treble;
 let bassortreble = Math.floor(Math.random() * 2);
 
 if (bassortreble === 0){
-    document.getElementById("note").src = rand.treble;
+    document.getElementById("note").src = rand.bass;
 } else {
     document.getElementById("note").src = rand.bass;
 }

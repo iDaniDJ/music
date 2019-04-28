@@ -83,22 +83,22 @@ let octiveb = {
     val2: "b"
 };
 let veryoctiveb = {
-  bass: "verylowb.png",
+  bass: "verylowb.PNG",
   val: "B",
   val2: "b"
   };
 let veryoctivea = {
-  bass: "verylowa.png",
+  bass: "verylowa.PNG",
   val: "A",
   val2: "a"
   };
 let veryoctiveg = {
-  bass: "verylowg.png",
+  bass: "verylowg.PNG",
   val: "G",
   val2: "g"
   };
 let veryoctivef = {
-  bass: "verylowf.png",
+  bass: "verylowf.PNG",
   val: "F",
   val2: "f"
   };

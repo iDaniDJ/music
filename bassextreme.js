@@ -125,7 +125,7 @@ let hioctivef = {
     
 
 
-let notes = [veryoctiveb,veryoctivea,veryoctiveg,veryoctivef,hioctivec,hioctived,hioctivee,hioctivef];
+let notes = [c,d,e,f,g,a,b,octivec,octived,octivee,octivef,octiveg,octivea,octiveb,veryoctiveb,veryoctivea,veryoctiveg,veryoctivef,hioctivec,hioctived,hioctivee,hioctivef];
 let rand = notes[Math.floor(Math.random() * notes.length)];
 let bass = rand.bass;
 let treble = rand.treble;

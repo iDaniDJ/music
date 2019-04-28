@@ -82,6 +82,54 @@ let octiveb = {
     val: "B",
     val2: "b"
 };
+let veryoctiveb = {
+  bass: "verylowb.png",
+  treble: "treblelowb.png",
+  val: "B",
+  val2: "b"
+  };
+let veryoctivea = {
+  bass: "verylowa.png",
+  treble: "treblelowa.png",
+  val: "A",
+  val2: "a"
+  };
+let veryoctiveg = {
+  bass: "verylowg.png",
+  treble: "treblelowg.png",
+  val: "G",
+  val2: "g"
+  };
+let veryoctivef = {
+  bass: "verylowf.png",
+  treble: "treblelowf.png",
+  val: "F",
+  val2: "f"
+  };
+let hioctivec = {
+    bass: "basshic.png",
+    treble: "veryhic.png",
+    val: "C",
+    val2: "c"
+};
+let hioctived = {
+    bass: "basshid.png",
+    treble: "veryhid.png",
+    val: "D",
+    val2: "d"
+};
+let hioctivee = {
+    bass: "basshie.png",
+    treble: "veryhie.png",
+    val: "E",
+    val2: "e"
+};
+let hioctivef = {
+    bass: "basshif.png",
+    treble: "veryhif.png",
+    val: "F",
+    val2: "f"
+};
 
 
 let notes = [c,d,e,f,g,a,b,octivec,octived,octivee,octivef,octiveg,octivea,octiveb];

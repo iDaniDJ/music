@@ -83,7 +83,22 @@ body {
          <br>
          <br>
          
-    <input type="checkbox" id="extremebox">EXTREMES</input>
+    <input type="checkbox" id="extremeBox">EXTREMES</input>
+<script>
+$('#extremeBox').click(function(e){
+	if (e.target.checked) {
+  	localStorage.checked = true;
+  } else {
+  	localStorage.checked = false;
+  }
+})
+ 
+$( document ).ready(function() {
+  
+	document.querySelector('#extremeBox').checked = localStorage.checked
+  
+});
+</script>
 <br>
 <br>
          <center>

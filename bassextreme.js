@@ -102,8 +102,30 @@ let veryoctivef = {
   val: "F",
   val2: "f"
   };
+let hioctivec = {
+    bass: "basshic.png",
+    val: "C",
+    val2: "c"
+};
+let hioctived = {
+    bass: "basshid.png",
+    val: "D",
+    val2: "d"
+};
+let hioctivee = {
+    bass: "basshie.png",
+    val: "E",
+    val2: "e"
+};
+let hioctivef = {
+    bass: "basshif.png",
+    val: "F",
+    val2: "f"
+};
+    
 
-let notes = [c,d,e,f,g,a,b,octivec,octived,octivee,octivef,octiveg,octivea,octiveb,veryoctiveb,veryoctivea,veryoctiveg,veryoctivef];
+
+let notes = [c,d,e,f,g,a,b,octivec,octived,octivee,octivef,octiveg,octivea,octiveb,veryoctiveb,veryoctivea,veryoctiveg,veryoctivef,hioctivec,hioctived,hioctivee,hioctivef];
 let rand = notes[Math.floor(Math.random() * notes.length)];
 let bass = rand.bass;
 let treble = rand.treble;
